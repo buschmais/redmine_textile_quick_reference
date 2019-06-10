@@ -1,0 +1,15 @@
+.textile-quick-reference {
+    border: 1px solid orange;
+    background-color: rgb(255, 214, 137);
+    width: calc(99% - 12px);
+    margin-top: 2px;
+    padding: 0 6px;
+}
+
+.tabular .textile-quick-reference {
+    width: calc(95% - 12px);
+}
+
+.textile-quick-reference .nowrap {
+    white-space: nowrap;
+}
