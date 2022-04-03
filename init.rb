@@ -1,4 +1,4 @@
-require 'wikiformatting_markdown_helper_patch'
+require_relative './lib/redmine'
 
 Redmine::Plugin.register :redmine_textile_quick_reference do
   name 'Textile Quick Reference for Selected Users'
